@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tatarverse/static/css/main.73467fa7.css",
-    "main.js": "/tatarverse/static/js/main.44c62586.js",
+    "main.css": "/tatarverse/static/css/main.a0cc272e.css",
+    "main.js": "/tatarverse/static/js/main.61689892.js",
     "static/media/ja-jp.ttf": "/tatarverse/static/media/ja-jp.3f5222906828f0646ca6.ttf",
     "static/media/background.png": "/tatarverse/static/media/background.4b76c7ec93f2a2d122bc.png",
     "index.html": "/tatarverse/index.html",
-    "main.73467fa7.css.map": "/tatarverse/static/css/main.73467fa7.css.map",
-    "main.44c62586.js.map": "/tatarverse/static/js/main.44c62586.js.map"
+    "main.a0cc272e.css.map": "/tatarverse/static/css/main.a0cc272e.css.map",
+    "main.61689892.js.map": "/tatarverse/static/js/main.61689892.js.map"
   },
   "entrypoints": [
-    "static/css/main.73467fa7.css",
-    "static/js/main.44c62586.js"
+    "static/css/main.a0cc272e.css",
+    "static/js/main.61689892.js"
   ]
 }

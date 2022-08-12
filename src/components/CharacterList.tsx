@@ -6,8 +6,30 @@ import Background from './Background';
 
 function CharacterList() {
   const characterList = [
-    new Character('Ainur', 12, 'Waifus', '#7F006E', '#FF00DC'),
-    new Character('Sanya', 99, 'Money', '#007F0E', '#00FF21'),
+    new Character(
+      'Айнурзуко',
+      27,
+      '#7F006E',
+      '#FF00DC',
+      'Айнур Динмухаметов',
+      '12.08',
+      'Вайфу',
+      'Tiltonicus',
+      'Большой Акбай',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+    ),
+    new Character(
+      'Sanya',
+      27,
+      '#007F0E',
+      '#00FF21',
+      'Александр Дровняшин',
+      '16.08',
+      'Деньги',
+      'Tiltonicus',
+      'Откусанное яблоко',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+    ),
   ];
 
   const [currentChar, setChar] = useState<Character>(characterList[0]);
@@ -15,9 +37,9 @@ function CharacterList() {
   return (
     <>
       <div className="charas">
-        <img src={require('../images/icons/vision.png')} />
+        <img alt="" src={require('../images/icons/vision.png')} />
         <p>
-          {currentChar.type} / {currentChar.name}
+          {currentChar.vision} / {currentChar.name}
         </p>
         <ul>
           {characterList.map((c) => {

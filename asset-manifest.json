@@ -1,22 +1,46 @@
 {
   "files": {
-    "main.css": "/tatarverse/static/css/main.54645d1b.css",
-    "main.js": "/tatarverse/static/js/main.ba1910ee.js",
+    "main.css": "/tatarverse/static/css/main.2557d8e0.css",
+    "main.js": "/tatarverse/static/js/main.20160ccb.js",
     "static/media/ja-jp.ttf": "/tatarverse/static/media/ja-jp.3f5222906828f0646ca6.ttf",
     "static/media/background.png": "/tatarverse/static/media/background.5e128e8855f3f5d63839.png",
     "static/media/Alexsandr-1.png": "/tatarverse/static/media/Alexsandr-1.e956f015682ae56ccef2.png",
     "static/media/Oenoork-3.png": "/tatarverse/static/media/Oenoork-3.4c01827df303164c4f3b.png",
     "static/media/alex-icon.png": "/tatarverse/static/media/alex-icon.975cf203a85627f14b6c.png",
+    "static/media/alex_constellation_6.png": "/tatarverse/static/media/alex_constellation_6.51ade7f6bb44b5defa3e.png",
     "static/media/Apple-1.png": "/tatarverse/static/media/Apple-1.4779b24565a82f7eb65a.png",
     "static/media/Dog-1.png": "/tatarverse/static/media/Dog-1.cca11f656aa387f04eb0.png",
     "static/media/aynur-icon.png": "/tatarverse/static/media/aynur-icon.a596b88a530b1ca4855c.png",
+    "static/media/alex_constellation_2.png": "/tatarverse/static/media/alex_constellation_2.a2e95f87cd307c972574.png",
+    "static/media/oenoor_constellation_6.png": "/tatarverse/static/media/oenoor_constellation_6.a2e95f87cd307c972574.png",
+    "static/media/oenoor_constellation_2.png": "/tatarverse/static/media/oenoor_constellation_2.a0768340771b2130a4ea.png",
     "static/media/Oenoork-1.png": "/tatarverse/static/media/Oenoork-1.f8482f8389a994ac27cd.png",
+    "static/media/oenoor_constellation_5.png": "/tatarverse/static/media/oenoor_constellation_5.ac4c648924df2a16eb98.png",
+    "static/media/oenoor_constellation_1.png": "/tatarverse/static/media/oenoor_constellation_1.fc3eea413b38499bedae.png",
+    "static/media/alex_constellation_4.png": "/tatarverse/static/media/alex_constellation_4.072751e4511693181c0d.png",
+    "static/media/alex_constellation_1.png": "/tatarverse/static/media/alex_constellation_1.e1c56894d2323060ff09.png",
+    "static/media/alex_talent_3.png": "/tatarverse/static/media/alex_talent_3.f8516cc5bc6b21675d28.png",
+    "static/media/alex_constellation_5.png": "/tatarverse/static/media/alex_constellation_5.78c76c59a7560bf850c4.png",
+    "static/media/oenoor_constellation_3.png": "/tatarverse/static/media/oenoor_constellation_3.95dc2a9026b783c871e3.png",
+    "static/media/oenoor_talant_2.png": "/tatarverse/static/media/oenoor_talant_2.26606a0d176597853891.png",
+    "static/media/alex_talent_5.png": "/tatarverse/static/media/alex_talent_5.784fa0e3556172284b9e.png",
+    "static/media/alex_talent_4.png": "/tatarverse/static/media/alex_talent_4.94003c64faca2e71d662.png",
+    "static/media/alex_constellation_3.png": "/tatarverse/static/media/alex_constellation_3.b7d66f4de47325d0d899.png",
+    "static/media/alex_talent_1.png": "/tatarverse/static/media/alex_talent_1.357c5d93536519a2161f.png",
+    "static/media/oenoor_talant_6.png": "/tatarverse/static/media/oenoor_talant_6.d5f663c684505f67614a.png",
+    "static/media/oenoor_talant_3.png": "/tatarverse/static/media/oenoor_talant_3.144924bf11dca0125b35.png",
+    "static/media/oenoor_talant_1.png": "/tatarverse/static/media/oenoor_talant_1.501f552014f711a46476.png",
+    "static/media/oenoor_talant_4.png": "/tatarverse/static/media/oenoor_talant_4.0b012a02d8595c52f82d.png",
+    "static/media/oenoor_constellation_4.png": "/tatarverse/static/media/oenoor_constellation_4.1334bc353325e1fa396e.png",
+    "static/media/oenoor_talant_5.png": "/tatarverse/static/media/oenoor_talant_5.ea5c606ef13629dae7bf.png",
+    "static/media/alex_talent_2.png": "/tatarverse/static/media/alex_talent_2.f1b746a935c170865a77.png",
+    "static/media/alex_talent_6.png": "/tatarverse/static/media/alex_talent_6.8dbe7c73b9d4d50a2ca6.png",
     "index.html": "/tatarverse/index.html",
-    "main.54645d1b.css.map": "/tatarverse/static/css/main.54645d1b.css.map",
-    "main.ba1910ee.js.map": "/tatarverse/static/js/main.ba1910ee.js.map"
+    "main.2557d8e0.css.map": "/tatarverse/static/css/main.2557d8e0.css.map",
+    "main.20160ccb.js.map": "/tatarverse/static/js/main.20160ccb.js.map"
   },
   "entrypoints": [
-    "static/css/main.54645d1b.css",
-    "static/js/main.ba1910ee.js"
+    "static/css/main.2557d8e0.css",
+    "static/js/main.20160ccb.js"
   ]
 }

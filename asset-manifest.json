@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/tatarverse/static/css/main.97e10f0f.css",
-    "main.js": "/tatarverse/static/js/main.9efdf712.js",
+    "main.css": "/tatarverse/static/css/main.ee4b9f27.css",
+    "main.js": "/tatarverse/static/js/main.fb060de6.js",
     "static/media/background.png": "/tatarverse/static/media/background.4b76c7ec93f2a2d122bc.png",
     "index.html": "/tatarverse/index.html",
-    "main.97e10f0f.css.map": "/tatarverse/static/css/main.97e10f0f.css.map",
-    "main.9efdf712.js.map": "/tatarverse/static/js/main.9efdf712.js.map"
+    "main.ee4b9f27.css.map": "/tatarverse/static/css/main.ee4b9f27.css.map",
+    "main.fb060de6.js.map": "/tatarverse/static/js/main.fb060de6.js.map"
   },
   "entrypoints": [
-    "static/css/main.97e10f0f.css",
-    "static/js/main.9efdf712.js"
+    "static/css/main.ee4b9f27.css",
+    "static/js/main.fb060de6.js"
   ]
 }

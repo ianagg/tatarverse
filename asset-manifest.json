@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/tatarverse/static/css/main.31d6cfe0.css",
+    "main.js": "/tatarverse/static/js/main.629498d1.js",
+    "index.html": "/tatarverse/index.html",
+    "main.629498d1.js.map": "/tatarverse/static/js/main.629498d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.629498d1.js"
+  ]
+}

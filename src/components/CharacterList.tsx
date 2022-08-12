@@ -60,7 +60,7 @@ function CharacterList() {
       ],
       require('../images/main/Oenoork-1.png'),
       require('../images/main/Dog-1.png'),
-      require('../images/main/Oenoork-3.png'),
+      require('../images/main/Oenoork-2.png'),
       require('../images/main/Oenoork-3.png')
     ),
     new Character(
@@ -125,8 +125,8 @@ function CharacterList() {
       ],
       require('../images/main/Alexsandr-1.png'),
       require('../images/main/Apple-1.png'),
-      require('../images/main/Apple-1.png'),
-      require('../images/main/Apple-1.png')
+      require('../images/main/Alexsandr-2.png'),
+      require('../images/main/Alexsandr-3.png')
     ),
   ];
 
@@ -135,7 +135,11 @@ function CharacterList() {
   return (
     <>
       <div className="charas">
-        <img className='vision' alt="" src={require('../images/icons/vision.png')} />
+        <img
+          className="vision"
+          alt=""
+          src={require('../images/icons/vision.png')}
+        />
         <p>
           {currentChar.vision} / {currentChar.name}
         </p>
@@ -143,7 +147,7 @@ function CharacterList() {
           {characterList.map((c) => {
             return (
               <button key={c.name} onClick={() => setChar(c)}>
-                <img className='icon' alt='' src={c.icon.image}/>
+                <img className="icon" alt="" src={c.icon.image} />
               </button>
             );
           })}

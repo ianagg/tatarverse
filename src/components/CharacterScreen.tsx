@@ -23,7 +23,7 @@ function CharacterScreen(char: Character) {
       currentImg = char.talImg;
       break;
     case '/profile':
-      currentImg = char.talImg;
+      currentImg = char.profImg;
       break;
     default:
       break;

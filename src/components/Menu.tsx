@@ -8,13 +8,15 @@ function Menu() {
         <li>
           <Link to="/">Attributes</Link>
         </li>
-        <li>Weapons</li>
-        <li>Artifacts</li>
-        <li>Constalations</li>
+        <li>
+          <Link to="/weapons">Weapons</Link>
+        </li>
         <li>
           <Link to="/talents">Talents</Link>
         </li>
-        <li>Profile</li>
+        <li>
+          <Link to="/profile">Profile</Link>
+        </li>
       </ul>
     </div>
   );

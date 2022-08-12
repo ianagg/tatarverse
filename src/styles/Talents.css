@@ -1,4 +1,29 @@
-.tal {
+.talents {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     grid-area: right;
-    background-color: coral;
+    font-family: SDK_JP_Web, serif;
+    color: #FEFFFF;
+    text-align: right;
+    padding: 10px;
+    margin: 20px;
+    margin-right: 60px;
+}
+
+.talents .talent {
+    display: inline;
+}
+
+.talents .name {
+    grid-column: 1 / 2;
+    text-align: right;
+    padding: 12px;
+}
+
+.talents label {
+    color: #feffffa6;
+}
+
+.talents image{
+    grid-column: 2 / 3;
 }

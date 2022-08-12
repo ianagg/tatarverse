@@ -1,4 +1,32 @@
 .menu {
     grid-area: left;
-    background-color: aquamarine;
+}
+
+.menu ul {
+    margin-top: 30px;
+    padding-left: 100px;
+}
+
+.menu li {
+    list-style: none;
+    font-family: SDK_JP_Web, serif;
+    color: #FEFFFF;
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+/* A link that has not been visited */
+a:link {
+    color: #FEFFFF7D;
+    text-decoration: none;
+}
+/* A link that has been visited */
+a:visited {
+    color: #FEFFFF7D;
+    text-decoration: none;
+}
+/* A link that is hovered on */
+a:hover {
+    color: #FEFFFF;
+    text-decoration: none;
 }

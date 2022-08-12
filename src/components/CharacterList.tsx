@@ -36,7 +36,7 @@ function CharacterList() {
       ],
       require('../images/main/Oenoork-1.png'),
       require('../images/main/Dog-1.png'),
-      require('../images/main/Oenoork-3.png'),
+      require('../images/main/Oenoork-2.png'),
       require('../images/main/Oenoork-3.png'),
       new Icon(require('../images/icons/waifu.png')),
     ),
@@ -70,8 +70,8 @@ function CharacterList() {
       ],
       require('../images/main/Alexsandr-1.png'),
       require('../images/main/Apple-1.png'),
-      require('../images/main/Apple-1.png'),
-      require('../images/main/Apple-1.png'),
+      require('../images/main/Alexsandr-2.png'),
+      require('../images/main/Alexsandr-3.png'),
       new Icon(require('../images/icons/money.png')),
     ),
   ];
@@ -89,7 +89,7 @@ function CharacterList() {
           {characterList.map((c) => {
             return (
               <button key={c.name} onClick={() => setChar(c)}>
-                <img className='icon' alt='' src={c.icon.image}/>
+                <img className="icon" alt="" src={c.icon.image} />
               </button>
             );
           })}

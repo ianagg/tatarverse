@@ -13,7 +13,7 @@ function Background(char: Character) {
 
   return (
     <div className="container" style={{ backgroundColor: char.backgroundColor }}>
-      <img className='background' src={require('../images/background.png')}/>
+      <img className='background' src={require('../images/background.png')} alt=''/>
       {particles}
     </div>
   );

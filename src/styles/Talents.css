@@ -1,6 +1,7 @@
 .talents {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(6, 80px);
     grid-area: right;
     font-family: SDK_JP_Web, serif;
     color: #FEFFFF;
@@ -8,10 +9,6 @@
     padding: 10px;
     margin: 20px;
     margin-right: 60px;
-}
-
-.talents .talent {
-    display: inline;
 }
 
 .talents .name {
@@ -24,6 +21,7 @@
     color: #feffffa6;
 }
 
-.talents image{
+.talents img {
     grid-column: 2 / 3;
+    margin: 0;
 }

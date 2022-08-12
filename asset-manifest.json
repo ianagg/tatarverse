@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/tatarverse/static/css/main.92a15818.css",
-    "main.js": "/tatarverse/static/js/main.2bb68a77.js",
+    "main.css": "/tatarverse/static/css/main.54645d1b.css",
+    "main.js": "/tatarverse/static/js/main.ba1910ee.js",
     "static/media/ja-jp.ttf": "/tatarverse/static/media/ja-jp.3f5222906828f0646ca6.ttf",
     "static/media/background.png": "/tatarverse/static/media/background.5e128e8855f3f5d63839.png",
+    "static/media/Alexsandr-1.png": "/tatarverse/static/media/Alexsandr-1.e956f015682ae56ccef2.png",
+    "static/media/Oenoork-3.png": "/tatarverse/static/media/Oenoork-3.4c01827df303164c4f3b.png",
     "static/media/alex-icon.png": "/tatarverse/static/media/alex-icon.975cf203a85627f14b6c.png",
+    "static/media/Apple-1.png": "/tatarverse/static/media/Apple-1.4779b24565a82f7eb65a.png",
+    "static/media/Dog-1.png": "/tatarverse/static/media/Dog-1.cca11f656aa387f04eb0.png",
     "static/media/aynur-icon.png": "/tatarverse/static/media/aynur-icon.a596b88a530b1ca4855c.png",
+    "static/media/Oenoork-1.png": "/tatarverse/static/media/Oenoork-1.f8482f8389a994ac27cd.png",
     "index.html": "/tatarverse/index.html",
-    "main.92a15818.css.map": "/tatarverse/static/css/main.92a15818.css.map",
-    "main.2bb68a77.js.map": "/tatarverse/static/js/main.2bb68a77.js.map"
+    "main.54645d1b.css.map": "/tatarverse/static/css/main.54645d1b.css.map",
+    "main.ba1910ee.js.map": "/tatarverse/static/js/main.ba1910ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.92a15818.css",
-    "static/js/main.2bb68a77.js"
+    "static/css/main.54645d1b.css",
+    "static/js/main.ba1910ee.js"
   ]
 }

@@ -1,4 +1,37 @@
 .con {
     grid-area: right;
-    background-color: chartreuse;
+    position: relative;
+    top: 20%;
+    font-family: SDK_JP_Web, serif;
+    color: #FEFFFF7C;
+}
+
+.con button {
+    width: 60px;
+    background-color: #00000040;
+    margin: 10px;
+    height: 60px;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color: #FFFFFF4D;
+    border-style: solid;
+    color: #FFFFFF;
+}
+
+.con li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    position: relative;
+    left: -20%;
+}
+
+.middle {
+    position: relative;
+    left: -10%;
 }

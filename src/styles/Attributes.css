@@ -1,0 +1,13 @@
+.charTab{
+    grid-area: right;
+    background-color: antiquewhite;
+}
+
+.mainStats {
+    border-bottom: solid 4px #4DCADC;
+}
+
+.subStats{
+    border-bottom: solid 4px #9AAFE6;;
+}
+

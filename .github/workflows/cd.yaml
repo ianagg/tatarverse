@@ -2,9 +2,9 @@ name: Continuous Deployment
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
 
 jobs:
   continuous-deployment:
@@ -16,7 +16,7 @@ jobs:
       - name: Install
         run: npm install
 
-      - name: Buid and Deploy
+      - name: Build and Deploy
         if: github.event_name != 'pull_request'
         run: |
           git config --global user.name 'Iana'

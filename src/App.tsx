@@ -1,4 +1,5 @@
-import './css/particles.css'
+import CharacterList from './components/CharacterList';
+import { BrowserRouter as StaticRouter } from 'react-router-dom';
 
 function App() {
   var backgroundColor = '#7F006E'
@@ -14,10 +15,11 @@ function App() {
   }
   
   return (
-    <div className="container" style={{ backgroundColor: backgroundColor }}>
-      <img className='background' src={require('./images/background.png')}/>
-      {particles}
-    </div>
+    <StaticRouter basename="/tatarverse">
+      <div className="App">
+        <CharacterList />
+      </div>
+    </StaticRouter>
   );
 }
 

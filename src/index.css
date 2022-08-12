@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'SDK_JP_Web';
+    src: local('SDK_JP_Web'), url(./fonts/ja-jp.ttf) format('truetype');
+}

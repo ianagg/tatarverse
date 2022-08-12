@@ -15,6 +15,7 @@ function CharacterList() {
   return (
     <>
       <div className="charas">
+        <img src={require('../images/icons/vision.png')} />
         <p>
           {currentChar.type} / {currentChar.name}
         </p>
@@ -23,9 +24,9 @@ function CharacterList() {
             return <button onClick={() => setChar(c)}>{c.name}</button>;
           })}
         </ul>
-        <Background {...currentChar} />
       </div>
       <CharacterScreen {...currentChar} />
+      <Background {...currentChar} />
     </>
   );
 }

@@ -1,8 +1,13 @@
+import CharacterList from './components/CharacterList';
+import { BrowserRouter as StaticRouter } from 'react-router-dom';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <StaticRouter basename="/tatarverse">
+      <div className="App">
+        <CharacterList />
+      </div>
+    </StaticRouter>
   );
 }
 

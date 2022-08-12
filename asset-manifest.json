@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/tatarverse/static/css/main.2557d8e0.css",
-    "main.js": "/tatarverse/static/js/main.20160ccb.js",
+    "main.js": "/tatarverse/static/js/main.eec267d8.js",
     "static/media/ja-jp.ttf": "/tatarverse/static/media/ja-jp.3f5222906828f0646ca6.ttf",
     "static/media/background.png": "/tatarverse/static/media/background.5e128e8855f3f5d63839.png",
+    "static/media/Alexsandr-3.png": "/tatarverse/static/media/Alexsandr-3.a31f30e30b3f69d7ee19.png",
     "static/media/Alexsandr-1.png": "/tatarverse/static/media/Alexsandr-1.e956f015682ae56ccef2.png",
+    "static/media/Alexsandr-2.png": "/tatarverse/static/media/Alexsandr-2.cc1098faca4a0d4c2e16.png",
+    "static/media/Oenoork-2.png": "/tatarverse/static/media/Oenoork-2.a4058d1ce735d64b65f4.png",
     "static/media/Oenoork-3.png": "/tatarverse/static/media/Oenoork-3.4c01827df303164c4f3b.png",
     "static/media/alex-icon.png": "/tatarverse/static/media/alex-icon.975cf203a85627f14b6c.png",
     "static/media/alex_constellation_6.png": "/tatarverse/static/media/alex_constellation_6.51ade7f6bb44b5defa3e.png",
@@ -37,10 +40,10 @@
     "static/media/alex_talent_6.png": "/tatarverse/static/media/alex_talent_6.8dbe7c73b9d4d50a2ca6.png",
     "index.html": "/tatarverse/index.html",
     "main.2557d8e0.css.map": "/tatarverse/static/css/main.2557d8e0.css.map",
-    "main.20160ccb.js.map": "/tatarverse/static/js/main.20160ccb.js.map"
+    "main.eec267d8.js.map": "/tatarverse/static/js/main.eec267d8.js.map"
   },
   "entrypoints": [
     "static/css/main.2557d8e0.css",
-    "static/js/main.20160ccb.js"
+    "static/js/main.eec267d8.js"
   ]
 }

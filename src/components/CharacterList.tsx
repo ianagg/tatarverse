@@ -20,7 +20,11 @@ function CharacterList() {
       [
         new Talent('asd', 1, require('../images/icons/vision.png')),
         new Talent('zxc', 1, require('../images/icons/vision.png')),
-      ]
+      ],
+      require('../images/main/Oenoork-1.png'),
+      require('../images/main/Dog-1.png'),
+      require('../images/main/Oenoork-3.png'),
+      require('../images/main/Oenoork-3.png')
     ),
     new Character(
       'Древослав',
@@ -36,7 +40,11 @@ function CharacterList() {
       [
         new Talent('asd', 1, require('../images/icons/vision.png')),
         new Talent('zxc', 1, require('../images/icons/vision.png')),
-      ]
+      ],
+      require('../images/main/Alexsandr-1.png'),
+      require('../images/main/Apple-1.png'),
+      require('../images/main/Apple-1.png'),
+      require('../images/main/Apple-1.png')
     ),
   ];
 

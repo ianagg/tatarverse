@@ -4,3 +4,16 @@
     grid-template-areas:
     "left main right";
 }
+
+.screen .mainView {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen .mainView img {
+    max-height: 800px;
+    max-width: 800px;
+    margin: 20px;
+}

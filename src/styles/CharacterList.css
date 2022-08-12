@@ -7,7 +7,7 @@
 
 .charas ul {
     display: flex;
-    margin: 35%;
+    margin: 30%;
 }
 
 .charas li {
@@ -27,6 +27,7 @@
     display: inline;
     font-family: SDK_JP_Web, serif;
     color: #E3CD9B;
+    font-size: x-large;
 }
 
 .charas img {

@@ -6,16 +6,16 @@ function Menu() {
     <div className="menu">
       <ul>
         <li>
-          <Link to="/">Характеристики</Link>
+          <Link to="/">◆ Характеристики</Link>
         </li>
         <li>
-          <Link to="/constellation">Созвездие</Link>
+          <Link to="/constellation">◆ Созвездие</Link>
         </li>
         <li>
-          <Link to="/talents">Таланты</Link>
+          <Link to="/talents">◆ Таланты</Link>
         </li>
         <li>
-          <Link to="/profile">О персонаже</Link>
+          <Link to="/profile">◆ О персонаже</Link>
         </li>
       </ul>
     </div>

@@ -11,8 +11,9 @@ export class Character {
   public description: string;
   public talents: Talent[];
   public icon: Icon;
+  public constellations: Talent[];
 
-  constructor(name: string, level: number, backgroundColor: string, particleColor: string, voice: string, birthDate: string, vision: string,group: string, constellation: string, description: string, talents: Talent[], icon: Icon) {
+  constructor(name: string, level: number, backgroundColor: string, particleColor: string, voice: string, birthDate: string, vision: string,group: string, constellation: string, description: string, talents: Talent[], icon: Icon, constellations: Talent[]) {
     this.name = name;
     this.level = level;
     this.backgroundColor = backgroundColor;
@@ -25,6 +26,7 @@ export class Character {
     this.description = description;
     this.talents = talents;
     this.icon = icon;
+    this.constellations = constellations;
   }
 }
 

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import '../styles/CharacterList.css';
 import CharacterScreen from './CharacterScreen';
-import { Character, Talent } from './Character';
+import { Character, Icon, Talent } from './Character';
 import Background from './Background';
 
 function CharacterList() {
@@ -20,7 +20,8 @@ function CharacterList() {
       [
         new Talent('asd', 1, require('../images/icons/vision.png')),
         new Talent('zxc', 1, require('../images/icons/vision.png')),
-      ]
+      ],
+      new Icon(require('../images/aynur-icon.png'))
     ),
     new Character(
       'Древослав',
@@ -36,7 +37,8 @@ function CharacterList() {
       [
         new Talent('asd', 1, require('../images/icons/vision.png')),
         new Talent('zxc', 1, require('../images/icons/vision.png')),
-      ]
+      ],
+      new Icon(require('../images/alex-icon.png'))
     ),
   ];
 
@@ -45,7 +47,7 @@ function CharacterList() {
   return (
     <>
       <div className="charas">
-        <img alt="" src={require('../images/icons/vision.png')} />
+        <img className='vision' alt="" src={require('../images/icons/vision.png')} />
         <p>
           {currentChar.vision} / {currentChar.name}
         </p>
@@ -53,7 +55,7 @@ function CharacterList() {
           {characterList.map((c) => {
             return (
               <button key={c.name} onClick={() => setChar(c)}>
-                {c.name}
+                <img className='icon' alt='' src={c.icon.image}/>
               </button>
             );
           })}

@@ -30,8 +30,15 @@
     font-size: x-large;
 }
 
-.charas img {
+.vision {
     width: 80px;
+}
+
+.icon {
+    width: 65px;
+    position: relative;
+    left: -6px;
+    top: -8px;
 }
 
 .charas button {
